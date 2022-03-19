@@ -1,0 +1,167 @@
+body{
+    background-color: #4c4f52;;
+}
+
+.headcont{
+background-color: #4c4f52;
+}
+
+.iconos{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+#carouselExampleDark{
+    margin: 0px;
+    padding: 0px;
+}
+
+.productos img{
+    border-radius: 75px;
+    padding: 15px;
+}
+
+
+.marcas{
+    background-color: rgba(255, 228, 196, 0.164);
+    border-radius: 20px;
+}
+
+
+.marcas img{
+    margin: 15px;
+    padding: 5px;
+
+}
+
+.footdata ul li{
+    list-style: none;
+}
+
+
+
+/* Sidebar para mobile */
+
+.sidebar,
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+.sidebar{
+    left: -100%;
+    max-width: 300px;
+    transition: all ease 0.25s;
+}
+
+.overlay{
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+    visibility: hidden;
+}
+
+.main-navigation.active .sidebar{
+left: 0;  
+}
+
+.main-navigation.active .overlay{
+    visibility: visible;
+}
+
+/* Fin navegador */
+
+
+/* INICIO Efecto Marcas */
+figure {
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+/* FIN efectos marcas */
+
+
+/* Media queries */
+@media (min-width:992px){
+    .sidebar{
+        position: relative;
+        top: auto;
+        bottom: auto;
+        left: auto;
+        flex-direction: row;
+        max-width: 100%;
+        transition: none;
+        overflow-y:visible ;
+         }
+            .iconos{
+                text-align: center;
+                font-size: 22px;
+            }
+                .iconos img{
+                    height:48px;
+                    width:48px;
+                }
+                    .productos img{
+                        border-radius: 75px;
+                        width: 150px;
+                        height: 150px;
+                        padding: 15px;
+                    }   
+            }            
+    }
+}
+
+
+/* Linea division */
+
+.divider {								/* minor cosmetics */
+    display: table; 
+    font-size: 24px; 
+    text-align: center; 
+    width: 75%; 						/* divider width */
+    margin: 40px auto;					/* spacing above/below */
+}
+.divider span { display: table-cell; position: relative; }
+.divider span:first-child, .divider span:last-child {
+    width: 50%;
+    top: 13px;							/* adjust vertical align */
+    -moz-background-size: 100% 2px; 	/* line width */
+    background-size: 100% 2.5px; 			/* line width */
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+}
+.divider span:first-child {				/* color changes in here */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000));
+    background-image: -webkit-linear-gradient(180deg, transparent, #000);
+    background-image: -moz-linear-gradient(180deg, transparent, #000);
+    background-image: -o-linear-gradient(180deg, transparent, #000);
+    background-image: linear-gradient(90deg, transparent, #000);
+}
+.divider span:nth-child(2) {
+    color: #000; padding: 0px 5px; width: auto; white-space: nowrap;
+}
+.divider span:last-child {				/* color changes in here */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+    background-image: -webkit-linear-gradient(180deg, #000, transparent);
+    background-image: -moz-linear-gradient(180deg, #000, transparent);
+    background-image: -o-linear-gradient(180deg, #000, transparent);
+    background-image: linear-gradient(90deg, #000, transparent);
+}
+/* Fin linea division */
+
