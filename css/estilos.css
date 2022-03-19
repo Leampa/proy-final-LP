@@ -27,3 +27,23 @@ body {
 
 .footdata ul li {
   list-style: none; }
+
+.prodh1 {
+  font-size: 35px;
+  display: flex;
+  justify-content: center; }
+
+.carousel-inner {
+  position: relative;
+  width: 250px;
+  overflow: hidden;
+  height: 100%; }
+
+.carousel-item {
+  position: relative;
+  width: 200px; }
+  .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px; }

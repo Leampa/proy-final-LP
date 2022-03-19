@@ -1,5 +1,6 @@
 $colorfondo: #4c4f52;
-
+$h1internos: 35px;
+$colorfondosecundario: rgba(255, 228, 196, 0.164);
 
 body{
     background-color: $colorfondo;
@@ -26,7 +27,7 @@ body{
 }
 
 .marcas{
-    background-color: rgba(255, 228, 196, 0.164);
+    background-color: $colorfondosecundario;
     border-radius: 20px;
 }
 
@@ -38,4 +39,30 @@ body{
 
 .footdata ul li{
     list-style: none;
+}
+
+
+.prodh1{
+    font-size: $h1internos;
+    display: flex;
+    justify-content: center;
+    }
+
+.carousel-inner{
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.carousel-item{
+    position: relative;
+
+    width: 200px;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
 }
