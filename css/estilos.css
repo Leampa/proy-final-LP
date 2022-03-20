@@ -1,5 +1,6 @@
 body {
-  background-image: url(../productos/cuerdas/wooden-textured-background.jpg); }
+  background-image: url(../productos/cuerdas/wooden-textured-background.jpg);
+  margin: 0px; }
 
 .headcont {
   background-color: black; }
@@ -7,6 +8,9 @@ body {
 .encabezado {
   position: fixed;
   z-index: 10; }
+
+.titumargen {
+  padding-top: 100px; }
 
 .iconos {
   text-align: center;

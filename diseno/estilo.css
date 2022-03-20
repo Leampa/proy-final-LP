@@ -49,6 +49,7 @@ background-color: #4c4f52;
     position: fixed;
     top: 0;
     bottom: 0;
+    z-index: 10;
 }
 .sidebar{
     left: -100%;
