@@ -48,14 +48,30 @@ body{
     justify-content: center;
     }
 
-.carousel-inner{
+.cuadrosproductor{
+    background-color: white;
+}
+
+.descripcionproductos{
+    display: flexbox;
+    justify-content: center;
+
+}
+
+    
+h4 {
+    font-size: 25px;
+}
+    
+
+.innerP{
     position: relative;
     width: 250px;
     overflow: hidden;
     height: 100%;
 }
 
-.carousel-item{
+.itemP{
     position: relative;
 
     width: 200px;
