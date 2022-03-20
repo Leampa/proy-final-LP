@@ -2,7 +2,11 @@ body {
   background-image: url(../productos/cuerdas/wooden-textured-background.jpg); }
 
 .headcont {
-  background-color: #4c4f52; }
+  background-color: black; }
+
+.encabezado {
+  position: fixed;
+  z-index: 10; }
 
 .iconos {
   text-align: center;
@@ -37,14 +41,14 @@ body {
   background-color: white; }
 
 .descriproductos {
-  background-color: rgba(255, 228, 196, 0.164); }
-
-.descripcionproductos {
-  display: flexbox;
-  justify-content: center; }
+  background-color: rgba(255, 228, 196, 0.164);
+  color: black;
+  text-align: center; }
 
 h4 {
-  font-size: 25px; }
+  font-size: 30px;
+  color: white;
+  text-align: center; }
 
 .innerP {
   display: flex;

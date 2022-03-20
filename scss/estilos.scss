@@ -7,7 +7,14 @@ body{
 }
 
 .headcont {
-    background-color: $colorfondo;
+    background-color: black;
+    
+}
+
+.encabezado{
+    position: fixed;
+    z-index: 10;
+
 }
 
 .iconos{
@@ -53,17 +60,18 @@ body{
 }
 .descriproductos{
     background-color: $colorfondosecundario;
+    color: black;
+
+    text-align: center;
 }
 
-.descripcionproductos{
-    display: flexbox;
-    justify-content: center;
 
-}
 
     
 h4 {
-    font-size: 25px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }
     
 
