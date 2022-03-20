@@ -3,7 +3,7 @@ $h1internos: 35px;
 $colorfondosecundario: rgba(255, 228, 196, 0.164);
 
 body{
-    background-color: $colorfondo;
+    background-image: url(../productos/cuerdas/wooden-textured-background.jpg) ;
 }
 
 .headcont {
@@ -48,8 +48,11 @@ body{
     justify-content: center;
     }
 
-.cuadrosproductor{
-    background-color: white;
+.cuadrosproductos{
+    background-color: white ;
+}
+.descriproductos{
+    background-color: $colorfondosecundario;
 }
 
 .descripcionproductos{
@@ -65,15 +68,15 @@ h4 {
     
 
 .innerP{
-    position: relative;
-    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
     overflow: hidden;
     height: 100%;
 }
 
 .itemP{
-    position: relative;
-
     width: 200px;
     img{
         height: 100%;
@@ -82,3 +85,4 @@ h4 {
         border-radius: 10px;
     }
 }
+
