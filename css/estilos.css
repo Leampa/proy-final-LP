@@ -32,17 +32,12 @@ body {
 .footdata ul li {
   list-style: none; }
 
-.prodh1 {
-  font-size: 35px;
-  display: flex;
-  justify-content: center; }
-
 .cuadrosproductos {
   background-color: white; }
 
 .descriproductos {
-  background-color: rgba(255, 228, 196, 0.164);
-  color: black;
+  background-color: rgba(255, 255, 255, 0.61);
+  color: #383030;
   text-align: center; }
 
 h4 {
