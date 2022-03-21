@@ -94,4 +94,27 @@ h4 {
     }
 }
 
+
+/*amps*/
+.innerA{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.itemA{
+    width: 400px;
+    height: 400px;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+}
+
 //fin carousel productos//
