@@ -1,9 +1,14 @@
-$colorfondo: #4c4f52;
-$h1internos: 35px;
-$colorfondosecundario: rgba(255, 228, 196, 0.164);
+@import "colores";
+@import "tamanos";
+
+
+@mixin padmar ($padd,$marg){
+    padding:$padd;
+    margin:$marg;   
+}
 
 body{
-    background-image: url(../productos/cuerdas/wooden-textured-background.jpg);
+    background-image: url(../imagenes/fondo2.jpg);
     margin: 0px;
 }
 
@@ -23,12 +28,11 @@ body{
 .iconos{
     text-align: center;
     font-size: 16px;
-    color: black;
+    color: $whitesuave;
 }
 
 #carouselExampleDark{
-    margin: 0px;
-    padding: 0px;
+    @include padmar(0px,0px)
 }
 
 .productos img{
@@ -42,8 +46,7 @@ body{
 }
 
 .marcas img{
-    margin: 15px;
-    padding: 5px;
+    @include padmar(5px,15px )
 
 }
 

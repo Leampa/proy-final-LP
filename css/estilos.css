@@ -1,5 +1,5 @@
 body {
-  background-image: url(../productos/cuerdas/wooden-textured-background.jpg);
+  background-image: url(../imagenes/fondo2.jpg);
   margin: 0px; }
 
 .headcont {
@@ -15,11 +15,11 @@ body {
 .iconos {
   text-align: center;
   font-size: 16px;
-  color: black; }
+  color: rgba(255, 255, 255, 0.781); }
 
 #carouselExampleDark {
-  margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  margin: 0px; }
 
 .productos img {
   border-radius: 75px;
@@ -30,8 +30,8 @@ body {
   border-radius: 20px; }
 
 .marcas img {
-  margin: 15px;
-  padding: 5px; }
+  padding: 5px;
+  margin: 15px; }
 
 .footdata ul li {
   list-style: none; }
