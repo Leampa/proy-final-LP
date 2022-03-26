@@ -27,8 +27,12 @@ body{
 
 .iconos{
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     color: $whitesuave;
+}
+
+.divider{
+    border-color: white;
 }
 
 #carouselExampleDark{
@@ -74,7 +78,8 @@ h4 {
 }
     
 
-// Carousel productos//
+// Carousel productos cuerdas//
+
 .innerP{
     display: flex;
     flex-direction: row;
@@ -96,25 +101,84 @@ h4 {
 
 
 /*amps*/
+
+
+.descriproductosamp{
+    background-color: rgba(255, 255, 255, 0.61);
+    color: rgb(56, 48, 48);
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+    // h3{
+    //     font-size: 25px;
+
+    
+    ul li {list-style: none;
+        text-align: left;
+        font-size: 18px;
+    }
+}
 .innerA{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     height: 100%;
     width: 100%;
 }
 
 .itemA{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     img{
+        margin-left: 60px;
         height: 100%;
         width: 100%;
         object-fit: contain;
         border-radius: 10px;
     } 
-}       
+}    
+   
 //fin carousel productos//
+
+
+
+
+
+/* Linea division */
+
+.divider {								/* minor cosmetics */
+    display: table; 
+    font-size: 24px; 
+    text-align: center; 
+    width: 75%; 						/* divider width */
+    margin: 40px auto;					/* spacing above/below */
+}
+.divider span { display: table-cell; position: relative; }
+.divider span:first-child, .divider span:last-child {
+    width: 50%;
+    top: 13px;							/* adjust vertical align */
+    -moz-background-size: 100% 2px; 	/* line width */
+    background-size: 100% 2.5px; 			/* line width */
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+}
+.divider span:first-child {				/* color changes in here */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to($colordivisor));
+    background-image: -webkit-linear-gradient(180deg, transparent, $colordivisor);
+    background-image: -moz-linear-gradient(180deg, transparent, $colordivisor);
+    background-image: -o-linear-gradient(180deg, transparent, $colordivisor);
+    background-image: linear-gradient(90deg, transparent, $colordivisor);
+}
+.divider span:nth-child(2) {
+    color: $colordivisor; padding: 0px 5px; width: auto; white-space: nowrap;
+}
+.divider span:last-child {				/* color changes in here */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from($colordivisor), to(transparent));
+    background-image: -webkit-linear-gradient(180deg, $colordivisor, transparent);
+    background-image: -moz-linear-gradient(180deg, $colordivisor, transparent);
+    background-image: -o-linear-gradient(180deg, $colordivisor, transparent);
+    background-image: linear-gradient(90deg, $colordivisor, transparent);
+}
+/* Fin linea division */
