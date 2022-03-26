@@ -17,8 +17,9 @@ body {
   font-size: 20px;
   color: #b3b3b3; }
 
-.divider {
-  border-color: white; }
+#h3ofrecemos {
+  color: #b3b3b3;
+  margin-top: 15px; }
 
 #carouselExampleDark {
   padding: 0px;
@@ -105,7 +106,7 @@ h4 {
   display: table;
   font-size: 24px;
   text-align: center;
-  width: 75%;
+  width: 100%;
   /* divider width */
   margin: 40px auto;
   /* spacing above/below */ }
