@@ -44,11 +44,6 @@ background-color: #4c4f52;
 
 /* Sidebar para mobile */
 
-
-
-$colordivisor: ;
-
-
 .sidebar,
 .overlay {
     position: fixed;
@@ -61,6 +56,7 @@ $colordivisor: ;
     max-width: 300px;
     transition: all ease 0.25s;
 }
+
 
 .overlay{
     left: 0;
@@ -78,6 +74,9 @@ left: 0;
 .main-navigation.active .overlay{
     visibility: visible;
 }
+
+
+
 
 /* Fin navegador */
 
