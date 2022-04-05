@@ -5,6 +5,11 @@ body {
 .headcont {
   background-color: black; }
 
+.logoM{
+    margin: 10px;
+}
+
+
 .encabezado {
   position: fixed;
   z-index: 10; }
