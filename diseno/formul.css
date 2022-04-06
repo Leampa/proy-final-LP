@@ -16,7 +16,8 @@
 } */
 
 .background {
-    margin-top: 15px;
+  margin-top: 15px;
+  margin-bottom: 25px;
   display: flex;
   min-height: 75vh;
 }

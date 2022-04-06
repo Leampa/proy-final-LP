@@ -134,7 +134,7 @@ figure:hover+span {
 }
 
 
-/*prueba sacada de ejericcio anterior sifon*/
+/*seccion ofertas*/
 
 #ofertas{
     display: flex;
@@ -221,14 +221,18 @@ figure:hover+span {
 /*efectos ofertas */
 .gallery__item:hover{
     border-radius:5%;
-    box-shadow: 0px 0px 15px 15px rgb(179, 179, 179);
+    box-shadow: 0px 0px 15px 15px rgba(255, 228, 196, 0.164);
     }
-    
     
     .gallery__item{
-        transition: 1s;
+        transition: 2s;
     }
-    .gallery__item:hover {-webkit-transform:scale(0.9);transform:scale(0.9);}
+    .gallery__item:hover {
+        -webkit-transform:scale(0.9);
+        transform:scale(0.9);
+
+        }
+    
     .gallery__item {overflow:hidden;}
     
 /* fin efectos ofertas*/
