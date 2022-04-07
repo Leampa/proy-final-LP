@@ -66,6 +66,7 @@ body{
     background-color: rgba(255, 255, 255, 0.61);
     color: rgb(56, 48, 48);
     text-align: center;
+    height: 200px;
 }
 
 h4 {
@@ -146,21 +147,16 @@ h4 {
     color: rgb(56, 48, 48);
     text-align: center;
     width: 300px;
-    height: 700px;
+    height: 400px;
     overflow: hidden;
     width: 100%;
-    // h3{
-    //     font-size: 25px;
-
-    
+        
     ul li {list-style: none;
         text-align: left;
         font-size: 18px;
     }
 }
 .innerT{
-    // width: 300px;
-    // height: 300px;
     overflow: hidden;
     height: 100%;
     width: 100%;
@@ -174,13 +170,10 @@ h4 {
         height: 100%;
         width: 100%;
         object-fit: contain;
-        border-radius: 10px;
     } 
 }    
 
 //fin carousel teclas//
-
-
 
 
 /* Linea division */

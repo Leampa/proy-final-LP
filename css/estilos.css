@@ -46,7 +46,8 @@ body {
 .descriproductos {
   background-color: rgba(255, 255, 255, 0.61);
   color: #383030;
-  text-align: center; }
+  text-align: center;
+  height: 200px; }
 
 h4 {
   font-size: 30px;
@@ -105,7 +106,7 @@ h4 {
   color: #383030;
   text-align: center;
   width: 300px;
-  height: 700px;
+  height: 400px;
   overflow: hidden;
   width: 100%; }
   .descriproductosteclas ul li {
@@ -125,8 +126,7 @@ h4 {
     margin-left: 60px;
     height: 100%;
     width: 100%;
-    object-fit: contain;
-    border-radius: 10px; }
+    object-fit: contain; }
 
 /* Linea division */
 .divider {
