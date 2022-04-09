@@ -91,7 +91,7 @@
 
 .screen-body-item {
   flex: 1;
-  padding: 50px;
+  padding: 20px;
 }
 
 .screen-body-item.left {
@@ -111,8 +111,8 @@
 }
 
 .ulContacto li{
-    margin: 10px;
-    padding: 20px;
+    margin: 10px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 .app-title {
@@ -182,30 +182,7 @@ a:hover {
   color: #ff6a6a;
 }
 
-/* .credits {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  color: #ffa4bd;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-}
 
-.credits-link {
-  display: flex;
-  align-items: center;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.dribbble {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-} */
 
 @media screen and (max-width: 520px) {
   .screen-body {
@@ -233,7 +210,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   .screen-body {
-    padding: 40px;
+    padding: 20px;
   }
 
   .screen-body-item {
