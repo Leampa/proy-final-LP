@@ -145,6 +145,11 @@ h4 {
     text-align: left;
     font-size: 24px; }
 
+.percuitems img:hover {
+  transition: 4s;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
 /* Linea division */
 .divider {
   /* minor cosmetics */

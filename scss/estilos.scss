@@ -186,7 +186,7 @@ h4 {
 
 
 
-//percu//
+// Inicio percu//
 
 .descriproductospercu{
     background-color: rgba(255, 255, 255, 0.61);
@@ -203,7 +203,16 @@ h4 {
         font-size: 24px;
     }
 }
-  
+
+.percuitems {
+    
+    img:hover{
+        transition: 4s;
+        -webkit-transform:scale(1.1);
+        transform:scale(1.1);
+
+    }
+}
 
 //fin custom percu//
 
