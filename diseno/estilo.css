@@ -205,7 +205,12 @@ figure:hover+span {
 /* Celular vertical  desde 320 px hasta 480*/
 @media screen and (max-width: 479px) {
 
-    
+  
+.productos img {
+    height: 110px;
+    width: 110px;
+}
+
 #ofertas{
     font-size: 30px;
     padding: 0px;
