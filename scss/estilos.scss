@@ -48,9 +48,17 @@ body{
     @include padmar(0px,0px)
 }
 
-.productos img{
-    border-radius: 75px;
-    padding: 15px;
+.productos {
+    align-items: center;
+    img {
+        border-radius: 75px;
+        padding: 15px;
+   }
+
+   p{   text-align: left;
+        padding-left: 30px;
+        color: $whitesuave;
+   }
 }
 
 .marcas{
